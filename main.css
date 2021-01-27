@@ -1,0 +1,35 @@
+@font-face {
+    font-family:'Karla';
+    src:url(fonts/Karla/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src:url(fonts/Rubik/Rubik-Medium.ttf);
+}
+
+body {
+    font-family: 'Karla';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Rubik';
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--black);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
